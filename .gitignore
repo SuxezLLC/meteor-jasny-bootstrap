@@ -1,0 +1,10 @@
+.idea
+*.log
+*.tmp
+*.pyc
+.DS*
+._*
+.Apple*
+*~
+*.db
+node_modules
