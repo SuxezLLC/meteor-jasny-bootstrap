@@ -16,6 +16,9 @@ Package.onUse(function (api) {
     var path = Npm.require('path');
     var lib_path = path.join('lib');
 
+    api.use('jquery', 'client');
+    api.use('twbs:bootstrap', 'client');
+
     api.add_files(path.join(lib_path, 'css', 'jasny-bootstrap.css'), 'client');
     api.add_files(path.join(lib_path, 'js', 'jasny-bootstrap.js'), 'client');
 
