@@ -1,6 +1,6 @@
 Package.describe({
     name: 'suxez:jasny-bootstrap',
-    version: '1.0.0',
+    version: '1.0.1',
     // Brief, one-line summary of the package.
     summary: 'Jansy Bootstrap (3.1.3) extensions.',
     // URL to the Git repository containing the source code for this package.
@@ -17,7 +17,7 @@ Package.onUse(function (api) {
     var lib_path = path.join('lib');
 
     api.use('jquery');
-    api.use('twbs:bootstrap@=3.3.4');
+    api.use(['twbs:bootstrap@3.3.4', 'nemo64:bootstrap@3.3.1_1'], 'client', {weak: true});
 
     api.add_files(path.join(lib_path, 'css', 'jasny-bootstrap.css'), 'client');
     api.add_files(path.join(lib_path, 'js', 'jasny-bootstrap.js'), 'client');
