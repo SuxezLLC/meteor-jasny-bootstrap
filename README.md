@@ -4,7 +4,7 @@ Wraps the [Jasny Bootstrap](http://jasny.github.io/bootstrap/) extensions in a m
 
 ## Install
 
-    meteor add suxez:jansy-bootstrap
+    meteor add suxez:jasny-bootstrap
 
 ## Authors
 
